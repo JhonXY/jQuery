@@ -65,7 +65,7 @@
 			},interval)
 		}
 
-
+		// 配置了自动轮播则轮播
 		if (config.auto) {
 			this.numToggle(config.auto);
 		}
@@ -92,6 +92,7 @@
 				return null;
 			}
 		},
+		// 轮播相关
 		_toggle:function(currTab,flag){
 			//每次toggle重新设定自动toggle
 			var _this = this;
